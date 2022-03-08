@@ -32,7 +32,7 @@ def main():
             base_path = argv[2]
         else:
             base_path = os.getcwd()
-    except ValueError:
+    except IndexError:
         print("You have no entered the URL of playlist")
         return 1
     p = Playlist(url)
