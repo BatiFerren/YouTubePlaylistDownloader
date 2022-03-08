@@ -19,7 +19,7 @@ python3 ytpldownloader.py "URL-path to playlist" [path to the download directory
 python ytpldownloader.py "URL-path to playlist" [path to the download directory]
 ```
 
-If optional parameter 'path to the download directory' not set, Playlist will be downloaded to the current working directory.
+If optional parameter `path to the download directory` not set, Playlist will be downloaded to the current working directory.
 
 ### Attention:
 URL-path must be in double quotes.
