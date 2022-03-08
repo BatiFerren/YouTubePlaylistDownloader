@@ -2,6 +2,10 @@
 
 ## Usage 
 
+### Requirements:
+
+`pytube >= 12.0.0`
+
 ### SYNOPSIS:
 
 ```sh
