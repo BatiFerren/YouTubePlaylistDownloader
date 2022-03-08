@@ -27,12 +27,15 @@ def create_directory(base_path, playlist):
 
 def main():
     try:
-        script, url = argv
+        url = argv[1]
+        if len(argv) > 2:
+            base_path = argv[2]
+        else:
+            base_path = os.getcwd()
     except ValueError:
         print("You have no entered the URL of playlist")
         return 1
     p = Playlist(url)
-    base_path = '/put/path/to/download/directory/here'
     out_path = create_directory(base_path, p)
     videos_list = p.videos
     count_file = 0
